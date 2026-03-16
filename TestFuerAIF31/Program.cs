@@ -8,6 +8,7 @@ namespace TestFuerAIF31
 {
     internal static class Program
     {
+        private static IModel model;
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
