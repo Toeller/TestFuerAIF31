@@ -17,6 +17,10 @@ namespace TestFuerAIF31
         [STAThread]
         static void Main()
         {
+            model=new Model();
+            view=new View();
+            controller=new Controller()
+                
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
